@@ -1,8 +1,7 @@
-package com.example.firebasefirestore.present
+package com.example.firebasefirestore.present.presents
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.lifecycle.ViewModelProvider
 import com.example.firebasefirestore.R
 
