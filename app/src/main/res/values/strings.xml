@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">firebaseFirestore</string>
+    <string name="CatName">Введите имя кота</string>
+    <string name="Name">Имя</string>
+    <string name="Age">Возраст</string>
+    <string name="Breed">Порода</string>
 </resources>
