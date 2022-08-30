@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">firebaseFirestore</string>
+    <string name="app_name" translatable="false">firebaseFirestore</string>
 </resources>
