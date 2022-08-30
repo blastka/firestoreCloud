@@ -80,8 +80,6 @@ class MainActivity : AppCompatActivity() {
                         // Sign in success, update UI with the signed-in user's information
                         Log.d("MY", "signInWithCredential:success")
                         val user = auth.currentUser
-                        binding.signInButton.visibility = View.VISIBLE
-                        binding.signOutButton.visibility = View.GONE
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.d("MY", "signInWithCredential:failed")

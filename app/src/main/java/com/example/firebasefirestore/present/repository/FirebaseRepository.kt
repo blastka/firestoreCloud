@@ -16,7 +16,7 @@ class FirebaseRepository: FirebaseRepositoryInterface {
     companion object
     {
         const val PATH_USER = "users"
-        const val PATH_CAT = "cat"
+        const val PATH_CAT = "Cat"
         const val FIELD_NAME_CAT = "name"
     }
 
