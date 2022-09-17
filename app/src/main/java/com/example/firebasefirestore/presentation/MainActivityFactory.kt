@@ -1,9 +1,9 @@
-package com.example.firebasefirestore.present.presents
+package com.example.firebasefirestore.presentation
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.firebasefirestore.present.repository.FirebaseRepository
+import com.example.firebasefirestore.data.repository.FirebaseRepository
 
 class MainActivityFactory(val context: Context): ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {

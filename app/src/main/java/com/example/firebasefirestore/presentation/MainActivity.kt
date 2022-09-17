@@ -1,4 +1,4 @@
-package com.example.firebasefirestore.present.presents
+package com.example.firebasefirestore.presentation
 
 import android.app.Activity
 import android.content.Intent

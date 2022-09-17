@@ -1,11 +1,11 @@
-package com.example.firebasefirestore.present.presents
+package com.example.firebasefirestore.presentation
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.firebasefirestore.present.models.Cat
-import com.example.firebasefirestore.present.models.FirebaseException
-import com.example.firebasefirestore.present.repository.FirebaseRepository
+import com.example.firebasefirestore.data.models.Cat
+import com.example.firebasefirestore.data.models.FirebaseException
+import com.example.firebasefirestore.data.repository.FirebaseRepository
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 

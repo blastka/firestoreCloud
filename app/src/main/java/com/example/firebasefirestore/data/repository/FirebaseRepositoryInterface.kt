@@ -1,6 +1,6 @@
-package com.example.firebasefirestore.present.repository
+package com.example.firebasefirestore.data.repository
 
-import com.example.firebasefirestore.present.models.Cat
+import com.example.firebasefirestore.data.models.Cat
 
 interface FirebaseRepositoryInterface {
     suspend fun readCat(name: String): Cat?

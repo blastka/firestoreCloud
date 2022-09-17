@@ -1,8 +1,8 @@
-package com.example.firebasefirestore.present.repository
+package com.example.firebasefirestore.data.repository
 
 import android.util.Log
-import com.example.firebasefirestore.present.models.Cat
-import com.example.firebasefirestore.present.models.FirebaseException
+import com.example.firebasefirestore.data.models.Cat
+import com.example.firebasefirestore.data.models.FirebaseException
 import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot

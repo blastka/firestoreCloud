@@ -1,4 +1,4 @@
-package com.example.firebasefirestore.present.models
+package com.example.firebasefirestore.data.models
 
 class FirebaseException(val number: FirebaseExceptions) : Throwable()  {
     fun getType(): FirebaseExceptions {

@@ -1,4 +1,4 @@
-package com.example.firebasefirestore.present.models
+package com.example.firebasefirestore.data.models
 
 data class Cat(
     var name: String = "",
