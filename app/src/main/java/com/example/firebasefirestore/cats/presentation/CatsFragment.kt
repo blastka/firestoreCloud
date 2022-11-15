@@ -27,7 +27,7 @@ class CatsFragment: Fragment() {
         }
         view.findViewById<View>(R.id.buttonInfoCat).setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()
-                .replace(R.id.container, detailsFragment)
+                .add(R.id.container, detailsFragment)
                 .commit()
         }
     }
