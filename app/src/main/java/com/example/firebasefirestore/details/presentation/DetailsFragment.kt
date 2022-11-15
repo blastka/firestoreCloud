@@ -19,7 +19,19 @@ class DetailsFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val value = requireArguments().getString("details")
+        val value = requireArguments().getString(KEY)
         view.findViewById<TextView>(R.id.textInfo).text = value
     }
+
+    companion object{
+        private const val KEY = "DETAILS"
+
+        fun newInstance(value: String) = DetailsFragment().apply {
+            arguments = Bundle().apply {
+                putString(KEY, value)
+            }
+        }
+    }
+
+
 }

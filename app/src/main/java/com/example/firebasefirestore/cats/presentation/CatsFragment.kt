@@ -21,13 +21,11 @@ class CatsFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<ProgressBar>(R.id.progressBar).visibility = View.GONE
-        val detailsFragment = DetailsFragment()
-        detailsFragment.arguments = Bundle().apply {
-            putString("details", "some information")
-        }
+        val detailsFragment = DetailsFragment.newInstance("same information")
         view.findViewById<View>(R.id.buttonInfoCat).setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction()
-                .add(R.id.container, detailsFragment)
+                .replace(R.id.container, detailsFragment)
+                .addToBackStack(detailsFragment.javaClass.simpleName)
                 .commit()
         }
     }
