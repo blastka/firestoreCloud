@@ -1,4 +1,4 @@
-package com.example.firebasefirestore.presentation
+package com.example.firebasefirestore.main.presentation
 
 import android.content.Context
 import androidx.lifecycle.ViewModel

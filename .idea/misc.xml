@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/test_android/firestoreCloud/app/src/main/res/layout/activity_main.xml" value="0.27807971014492755" />
+        <entry key="..\:/test_android/firestoreCloud/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/test_android/firestoreCloud/app/src/main/res/layout/cats_fragment.xml" value="0.41849148418491483" />
+        <entry key="..\:/test_android/firestoreCloud/app/src/main/res/layout/fragment_cats.xml" value="0.3009833262077811" />
+        <entry key="..\:/test_android/firestoreCloud/app/src/main/res/layout/fragment_details.xml" value="0.22" />
       </map>
     </option>
   </component>

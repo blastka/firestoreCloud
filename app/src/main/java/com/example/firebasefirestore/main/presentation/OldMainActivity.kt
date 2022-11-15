@@ -1,37 +1,20 @@
-package com.example.firebasefirestore.presentation
+package com.example.firebasefirestore.main.presentation
 
-import android.app.Activity
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.util.Log
-import android.view.KeyEvent
-import android.view.View
-import android.widget.Toast
-import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import com.example.firebasefirestore.R
-import com.example.firebasefirestore.databinding.ActivityMainBinding
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var viewModel: MainActivityViewModel
-    private lateinit var binding: ActivityMainBinding
+
+@Deprecated("old activity")
+class OldMainActivity{
+
+    /*private lateinit var viewModel: MainActivityViewModel
     lateinit var googleSignInClient: GoogleSignInClient
     private lateinit var auth: FirebaseAuth
-    private var resultLauncherSave : ActivityResultLauncher<Intent>? = null
+    private var resultLauncherSave : ActivityResultLauncher<Intent>? = null*/
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+
+   /* override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
@@ -157,6 +140,5 @@ class MainActivity : AppCompatActivity() {
             auth.currentUser?.uid
         } else
             null
-    }
-
+    }*/
 }
